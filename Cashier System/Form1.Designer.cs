@@ -30,8 +30,8 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.ToolStripMenuItemFile = new System.Windows.Forms.ToolStripMenuItem();
-            this.اضافهمنتجToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.تعديلمنتجToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripMenuItemAddItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripMenuItemEditItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,26 +49,26 @@
             // ToolStripMenuItemFile
             // 
             this.ToolStripMenuItemFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.اضافهمنتجToolStripMenuItem,
-            this.تعديلمنتجToolStripMenuItem});
+            this.ToolStripMenuItemAddItem,
+            this.ToolStripMenuItemEditItem});
             this.ToolStripMenuItemFile.Name = "ToolStripMenuItemFile";
             this.ToolStripMenuItemFile.Size = new System.Drawing.Size(36, 20);
             this.ToolStripMenuItemFile.Text = "ملف";
             this.ToolStripMenuItemFile.Click += new System.EventHandler(this.ToolStripMenuItemFile_Click);
             // 
-            // اضافهمنتجToolStripMenuItem
+            // ToolStripMenuItemAddItem
             // 
-            this.اضافهمنتجToolStripMenuItem.Name = "اضافهمنتجToolStripMenuItem";
-            this.اضافهمنتجToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.اضافهمنتجToolStripMenuItem.Text = "اضافه منتج";
-            this.اضافهمنتجToolStripMenuItem.Click += new System.EventHandler(this.اضافهمنتجToolStripMenuItem_Click);
+            this.ToolStripMenuItemAddItem.Name = "ToolStripMenuItemAddItem";
+            this.ToolStripMenuItemAddItem.Size = new System.Drawing.Size(152, 22);
+            this.ToolStripMenuItemAddItem.Text = "اضافه منتج";
+            this.ToolStripMenuItemAddItem.Click += new System.EventHandler(this.ToolStripMenuItemAddItem_Click);
             // 
-            // تعديلمنتجToolStripMenuItem
+            // ToolStripMenuItemEditItem
             // 
-            this.تعديلمنتجToolStripMenuItem.Name = "تعديلمنتجToolStripMenuItem";
-            this.تعديلمنتجToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.تعديلمنتجToolStripMenuItem.Text = "تعديل منتج";
-            this.تعديلمنتجToolStripMenuItem.Click += new System.EventHandler(this.تعديلمنتجToolStripMenuItem_Click_1);
+            this.ToolStripMenuItemEditItem.Name = "ToolStripMenuItemEditItem";
+            this.ToolStripMenuItemEditItem.Size = new System.Drawing.Size(152, 22);
+            this.ToolStripMenuItemEditItem.Text = "تعديل منتج";
+            this.ToolStripMenuItemEditItem.Click += new System.EventHandler(this.ToolStripMenuItemEditItem_Click_1);
             // 
             // Form1
             // 
@@ -90,8 +90,8 @@
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemFile;
-        private System.Windows.Forms.ToolStripMenuItem اضافهمنتجToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem تعديلمنتجToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemAddItem;
+        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemEditItem;
     }
 }
 

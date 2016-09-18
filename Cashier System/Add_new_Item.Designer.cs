@@ -41,10 +41,10 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.discount_tb = new System.Windows.Forms.TextBox();
-            this.description_tb = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.statues_lbl = new System.Windows.Forms.Label();
+            this.description_tb = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -90,6 +90,7 @@
             this.price_tb.Name = "price_tb";
             this.price_tb.Size = new System.Drawing.Size(97, 20);
             this.price_tb.TabIndex = 4;
+            this.price_tb.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // code_tb
             // 
@@ -97,6 +98,7 @@
             this.code_tb.Name = "code_tb";
             this.code_tb.Size = new System.Drawing.Size(303, 20);
             this.code_tb.TabIndex = 5;
+            this.code_tb.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // name_tb
             // 
@@ -104,6 +106,7 @@
             this.name_tb.Name = "name_tb";
             this.name_tb.Size = new System.Drawing.Size(303, 20);
             this.name_tb.TabIndex = 6;
+            this.name_tb.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // quantity_tb
             // 
@@ -111,6 +114,7 @@
             this.quantity_tb.Name = "quantity_tb";
             this.quantity_tb.Size = new System.Drawing.Size(97, 20);
             this.quantity_tb.TabIndex = 7;
+            this.quantity_tb.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label5
             // 
@@ -127,6 +131,7 @@
             this.bprice_tb.Name = "bprice_tb";
             this.bprice_tb.Size = new System.Drawing.Size(100, 20);
             this.bprice_tb.TabIndex = 9;
+            this.bprice_tb.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label6
             // 
@@ -152,18 +157,11 @@
             this.discount_tb.Name = "discount_tb";
             this.discount_tb.Size = new System.Drawing.Size(100, 20);
             this.discount_tb.TabIndex = 12;
-            // 
-            // description_tb
-            // 
-            this.description_tb.Location = new System.Drawing.Point(142, 237);
-            this.description_tb.Multiline = true;
-            this.description_tb.Name = "description_tb";
-            this.description_tb.Size = new System.Drawing.Size(303, 20);
-            this.description_tb.TabIndex = 13;
+            this.discount_tb.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(142, 289);
+            this.button1.Location = new System.Drawing.Point(345, 409);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(123, 23);
             this.button1.TabIndex = 14;
@@ -173,7 +171,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(345, 289);
+            this.button2.Location = new System.Drawing.Point(123, 409);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(130, 23);
             this.button2.TabIndex = 15;
@@ -189,15 +187,24 @@
             this.statues_lbl.Size = new System.Drawing.Size(0, 13);
             this.statues_lbl.TabIndex = 16;
             // 
+            // description_tb
+            // 
+            this.description_tb.Location = new System.Drawing.Point(142, 256);
+            this.description_tb.Name = "description_tb";
+            this.description_tb.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.description_tb.Size = new System.Drawing.Size(303, 110);
+            this.description_tb.TabIndex = 17;
+            this.description_tb.Text = "";
+            // 
             // Add_new_Item
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(682, 348);
+            this.ClientSize = new System.Drawing.Size(682, 455);
+            this.Controls.Add(this.description_tb);
             this.Controls.Add(this.statues_lbl);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.description_tb);
             this.Controls.Add(this.discount_tb);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -234,9 +241,9 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox discount_tb;
-        private System.Windows.Forms.TextBox description_tb;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label statues_lbl;
+        private System.Windows.Forms.RichTextBox description_tb;
     }
 }

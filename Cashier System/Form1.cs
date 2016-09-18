@@ -22,15 +22,15 @@ namespace Cashier_System
           
         }
 
-        private void اضافهمنتجToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ToolStripMenuItemAddItem_Click(object sender, EventArgs e)
         {
             Add_new_Item new_Item = new Add_new_Item();
             new_Item.Show();
         }
 
-        
 
-        private void تعديلمنتجToolStripMenuItem_Click_1(object sender, EventArgs e)
+
+        private void ToolStripMenuItemEditItem_Click_1(object sender, EventArgs e)
         {
             Product_Details product_details = new Product_Details();
             product_details.Show();

@@ -15,6 +15,7 @@ namespace Cashier_System
         public Add_new_Item()
         {
             InitializeComponent();
+            this.ActiveControl = code_tb;
         }
 
         private void label1_Click(object sender, EventArgs e)

@@ -35,3 +35,16 @@ E:\Work\Self-Projects\GitHub\Cashier-System\Cashier System\Cashier System\bin\De
 E:\Work\Self-Projects\GitHub\Cashier-System\Cashier System\Cashier System\bin\Debug\Cashier System.pdb
 E:\Work\Self-Projects\GitHub\Cashier-System\Cashier System\Cashier System\obj\Debug\Cashier System.exe
 E:\Work\Self-Projects\GitHub\Cashier-System\Cashier System\Cashier System\obj\Debug\Cashier System.pdb
+C:\Users\taico\Documents\GitHub\Cashier-System\Cashier System\obj\Debug\Cashier System.csprojResolveAssemblyReference.cache
+C:\Users\taico\Documents\GitHub\Cashier-System\Cashier System\obj\Debug\Cashier_System.Add_new_Item.resources
+C:\Users\taico\Documents\GitHub\Cashier-System\Cashier System\obj\Debug\Cashier_System.Form1.resources
+C:\Users\taico\Documents\GitHub\Cashier-System\Cashier System\obj\Debug\Cashier_System.Product_Details.resources
+C:\Users\taico\Documents\GitHub\Cashier-System\Cashier System\obj\Debug\Cashier_System.Properties.Resources.resources
+C:\Users\taico\Documents\GitHub\Cashier-System\Cashier System\obj\Debug\Cashier System.csproj.GenerateResource.Cache
+C:\Users\taico\Documents\GitHub\Cashier-System\Cashier System\obj\Debug\Cashier System.exe
+C:\Users\taico\Documents\GitHub\Cashier-System\Cashier System\bin\Debug\Database.mdf
+C:\Users\taico\Documents\GitHub\Cashier-System\Cashier System\bin\Debug\Database_log.ldf
+C:\Users\taico\Documents\GitHub\Cashier-System\Cashier System\bin\Debug\Cashier System.exe.config
+C:\Users\taico\Documents\GitHub\Cashier-System\Cashier System\bin\Debug\Cashier System.exe
+C:\Users\taico\Documents\GitHub\Cashier-System\Cashier System\bin\Debug\Cashier System.pdb
+C:\Users\taico\Documents\GitHub\Cashier-System\Cashier System\obj\Debug\Cashier System.pdb

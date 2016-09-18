@@ -1,0 +1,37 @@
+c:\users\taico\documents\visual studio 2013\Projects\Cashier System\Cashier System\bin\Debug\Cashier System.exe.config
+c:\users\taico\documents\visual studio 2013\Projects\Cashier System\Cashier System\bin\Debug\Database.mdf
+c:\users\taico\documents\visual studio 2013\Projects\Cashier System\Cashier System\bin\Debug\Database_log.ldf
+c:\users\taico\documents\visual studio 2013\Projects\Cashier System\Cashier System\bin\Debug\Cashier System.exe
+c:\users\taico\documents\visual studio 2013\Projects\Cashier System\Cashier System\bin\Debug\Cashier System.pdb
+c:\users\taico\documents\visual studio 2013\Projects\Cashier System\Cashier System\obj\Debug\Cashier System.csprojResolveAssemblyReference.cache
+c:\users\taico\documents\visual studio 2013\Projects\Cashier System\Cashier System\obj\Debug\Cashier_System.Properties.Resources.resources
+c:\users\taico\documents\visual studio 2013\Projects\Cashier System\Cashier System\obj\Debug\Cashier System.csproj.GenerateResource.Cache
+c:\users\taico\documents\visual studio 2013\Projects\Cashier System\Cashier System\obj\Debug\Cashier System.exe
+c:\users\taico\documents\visual studio 2013\Projects\Cashier System\Cashier System\obj\Debug\Cashier System.pdb
+c:\users\taico\documents\visual studio 2013\Projects\Cashier System\Cashier System\obj\Debug\Cashier_System.Form1.resources
+E:\Work\Self-Projects\Cashier System\Cashier System\bin\Debug\Database.mdf
+E:\Work\Self-Projects\Cashier System\Cashier System\bin\Debug\Database_log.ldf
+E:\Work\Self-Projects\Cashier System\Cashier System\bin\Debug\Cashier System.exe.config
+E:\Work\Self-Projects\Cashier System\Cashier System\bin\Debug\Cashier System.exe
+E:\Work\Self-Projects\Cashier System\Cashier System\bin\Debug\Cashier System.pdb
+E:\Work\Self-Projects\Cashier System\Cashier System\obj\Debug\Cashier_System.Form1.resources
+E:\Work\Self-Projects\Cashier System\Cashier System\obj\Debug\Cashier_System.Properties.Resources.resources
+E:\Work\Self-Projects\Cashier System\Cashier System\obj\Debug\Cashier System.csproj.GenerateResource.Cache
+E:\Work\Self-Projects\Cashier System\Cashier System\obj\Debug\Cashier System.exe
+E:\Work\Self-Projects\Cashier System\Cashier System\obj\Debug\Cashier System.pdb
+E:\Work\Self-Projects\Cashier System\Cashier System\obj\Debug\Cashier System.csprojResolveAssemblyReference.cache
+E:\Work\Self-Projects\Cashier System\Cashier System\obj\Debug\Cashier_System.Add_new_Item.resources
+E:\Work\Self-Projects\Cashier System\Cashier System\obj\Debug\Cashier_System.Product_Details.resources
+E:\Work\Self-Projects\GitHub\Cashier-System\Cashier System\Cashier System\obj\Debug\Cashier System.csprojResolveAssemblyReference.cache
+E:\Work\Self-Projects\GitHub\Cashier-System\Cashier System\Cashier System\obj\Debug\Cashier_System.Add_new_Item.resources
+E:\Work\Self-Projects\GitHub\Cashier-System\Cashier System\Cashier System\obj\Debug\Cashier_System.Form1.resources
+E:\Work\Self-Projects\GitHub\Cashier-System\Cashier System\Cashier System\obj\Debug\Cashier_System.Product_Details.resources
+E:\Work\Self-Projects\GitHub\Cashier-System\Cashier System\Cashier System\obj\Debug\Cashier_System.Properties.Resources.resources
+E:\Work\Self-Projects\GitHub\Cashier-System\Cashier System\Cashier System\obj\Debug\Cashier System.csproj.GenerateResource.Cache
+E:\Work\Self-Projects\GitHub\Cashier-System\Cashier System\Cashier System\bin\Debug\Database.mdf
+E:\Work\Self-Projects\GitHub\Cashier-System\Cashier System\Cashier System\bin\Debug\Database_log.ldf
+E:\Work\Self-Projects\GitHub\Cashier-System\Cashier System\Cashier System\bin\Debug\Cashier System.exe.config
+E:\Work\Self-Projects\GitHub\Cashier-System\Cashier System\Cashier System\bin\Debug\Cashier System.exe
+E:\Work\Self-Projects\GitHub\Cashier-System\Cashier System\Cashier System\bin\Debug\Cashier System.pdb
+E:\Work\Self-Projects\GitHub\Cashier-System\Cashier System\Cashier System\obj\Debug\Cashier System.exe
+E:\Work\Self-Projects\GitHub\Cashier-System\Cashier System\Cashier System\obj\Debug\Cashier System.pdb

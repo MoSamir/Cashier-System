@@ -88,6 +88,19 @@ namespace Cashier_System
 
 
 
+        public DataSet finds(string table, string key, string value)
+        {
+            con.Open();
+            string sql = "SELECT * FROM " + table + " WHERE " + key + "=" + "'" + value + "'";
+            SqlDataAdapter DA = new SqlDataAdapter(sql, con);
+            DataSet DS = new DataSet();
+            DA.Fill(DS);
+            con.Close();
+            return DS;
+        }
+
+
+
 
         public DataSet search(string table)
         {

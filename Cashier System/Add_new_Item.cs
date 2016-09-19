@@ -35,47 +35,66 @@ namespace Cashier_System
 
             if ((price_tb.Text == "") || (bprice_tb.Text == ""))
                 return false;
+
             return true;
         }
 
         private bool ValidInput(){
-            int int_test ;
-            float float_test ;
+            int Quantity ;
+            float Discount , Price, Bprice ;
             bool error_found = false;
             if(discount_tb.Text == "") discount_tb.Text = "0.0";
-            if (int.TryParse(quantity_tb.Text, out int_test) == false) {
+            if (int.TryParse(quantity_tb.Text, out Quantity) == false || int.Parse(quantity_tb.Text) < 0)
+            {
+
+                quantity_tb.Text = "الكميه بالسالب";
                 quantity_tb.BackColor = Color.Red;
                 error_found = true;
+            }else{
+                quantity_tb.BackColor = Color.White;
             }
 
-            if (float.TryParse(discount_tb.Text, out float_test) == false)
+
+            if (float.TryParse(discount_tb.Text, out Discount) == false || float.Parse(discount_tb.Text) < 0)
             {
+                discount_tb.Text = "الحصم بالسالب";
                 discount_tb.BackColor = Color.Red;
                 error_found = true;
+            }else{ 
+                discount_tb.BackColor = Color.White;
             }
 
-            if (float.TryParse(price_tb.Text, out float_test) == false)
+
+            if (float.TryParse(price_tb.Text, out Price) == false || float.Parse(price_tb.Text) < 0)
             {
+                price_tb.Text = "ثمن البيع بالسالب";
                 price_tb.BackColor = Color.Red;
                 error_found = true;
+            }else{ 
+                price_tb.BackColor = Color.White;
             }
 
-            if (float.TryParse(bprice_tb.Text, out float_test) == false)
+            if (float.TryParse(bprice_tb.Text, out Bprice) == false || float.Parse(bprice_tb.Text) < 0)
             {
+
+                bprice_tb.Text = "تمن الشراء بالسالب";
                 bprice_tb.BackColor = Color.Red;
                 error_found = true;
+            }else{ 
+                bprice_tb.BackColor = Color.White;
             }
+
 
             if (code_tb.Text == "")
             {
+                code_tb.Text = "يجب اضافه كود للمنتج";
                 code_tb.BackColor = Color.Red;
                 error_found = true;
-            }
+            } else
+                code_tb.BackColor = Color.White;
+
             return !error_found;
         }
-
-
-
         private void button1_Click(object sender, EventArgs e)
         {
             DAL db = new DAL();
@@ -90,8 +109,7 @@ namespace Cashier_System
                 if (DS.Tables[0].Rows.Count != 0)
                 {
                     statues_lbl.ForeColor = Color.Red;
-                    statues_lbl.Text = "المنتج موجود بالفعل";
-                    
+                    statues_lbl.Text = "المنتج موجود بالفعل";       
                 }
 
                 else if (db.Add("product_tbl", Constants.product_keys, values))
@@ -104,15 +122,17 @@ namespace Cashier_System
                     statues_lbl.ForeColor = Color.Red;
                     statues_lbl.Text = "حدث خظأ اثناء الاضافه .. حاول مجددا";
                     values.Clear();
+                    return;
                 }
-                code_tb.Clear();
-                name_tb.Clear();
-                bprice_tb.Clear();
-                price_tb.Clear();
-                quantity_tb.Clear();
-                discount_tb.Clear();
-                description_tb.Clear();
-                code_tb.Focus();
+
+                code_tb.Clear();        code_tb.BackColor = Color.White;
+                name_tb.Clear();        name_tb.BackColor = Color.White;
+                bprice_tb.Clear();      bprice_tb.BackColor = Color.White;
+                price_tb.Clear();       price_tb.BackColor = Color.White;
+                quantity_tb.Clear();    quantity_tb.BackColor = Color.White;
+                discount_tb.Clear();    discount_tb.BackColor = Color.White;
+                description_tb.Clear(); description_tb.BackColor = Color.White;
+                code_tb.Focus();        
                 values.Clear();
                 return;
             }

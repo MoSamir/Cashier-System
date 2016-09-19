@@ -15,20 +15,24 @@ namespace Cashier_System
         SqlConnection con = new SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["Database"].ConnectionString);
         
         public bool Add(string table, List<string> keys, List<string> values)
-        {
-            
+        { 
+            int KeyIndex = 0;
             con.Open();
             string sql = "INSERT INTO " + table + " (";
             foreach (string key in keys) { sql += key + ","; };
             sql = sql.Remove(sql.Length - 1);
             sql += ") VALUES (";
-            foreach (string value in values) { sql += "'" + value + "'" + ","; };
+            foreach (string value in values)
+            {
+                if(KeyIndex == 3 || KeyIndex == 4)    
+                        sql += "N'" + value + "'" + ",";
+                else
+                    sql += "'" + value + "'" + ",";
+                KeyIndex++;
+            };
             sql = sql.Remove(sql.Length - 1);
             sql += ")";
-
             SqlCommand command = new SqlCommand(sql, con);
-
-
             int affectedRows = command.ExecuteNonQuery();
             Boolean IsConnectedDB = (con.State == ConnectionState.Open);
 

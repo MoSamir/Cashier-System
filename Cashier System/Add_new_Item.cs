@@ -86,7 +86,7 @@ namespace Cashier_System
                 , bprice_tb.Text , description_tb.Text , name_tb.Text , discount_tb.Text 
                 , quantity_tb.Text , "0" };
                 
-                DataSet DS = db.find("product_tbl", "product_code", code_tb.Text);
+                DataSet DS = db.finds("product_tbl", "product_code", code_tb.Text);
                 if (DS.Tables[0].Rows.Count != 0)
                 {
                     statues_lbl.ForeColor = Color.Red;
@@ -105,7 +105,14 @@ namespace Cashier_System
                     statues_lbl.Text = "حدث خظأ اثناء الاضافه .. حاول مجددا";
                     values.Clear();
                 }
-                
+                code_tb.Clear();
+                name_tb.Clear();
+                bprice_tb.Clear();
+                price_tb.Clear();
+                quantity_tb.Clear();
+                discount_tb.Clear();
+                description_tb.Clear();
+                code_tb.Focus();
                 values.Clear();
                 return;
             }
@@ -120,6 +127,61 @@ namespace Cashier_System
         {
             this.Close();
             this.Hide();
+        }
+
+        private void code_tb_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode==Keys.Enter){
+                name_tb.Focus();
+            }
+        }
+
+        private void name_tb_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                bprice_tb.Focus();
+            }
+        }
+
+        private void bprice_tb_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                price_tb.Focus();
+            }
+        }
+
+        private void price_tb_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                discount_tb.Focus();
+            }
+        }
+
+        private void discount_tb_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                quantity_tb.Focus();
+            }
+        }
+
+        private void quantity_tb_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                description_tb.Focus();
+            }
+        }
+
+        private void description_tb_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                button1.Focus();
+            }
         }
     }
 }

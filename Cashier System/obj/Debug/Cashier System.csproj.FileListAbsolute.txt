@@ -61,3 +61,4 @@ E:\Work\GitHub\Cashier-System\Cashier System\obj\Debug\Cashier_System.Properties
 E:\Work\GitHub\Cashier-System\Cashier System\obj\Debug\Cashier System.csproj.GenerateResource.Cache
 E:\Work\GitHub\Cashier-System\Cashier System\obj\Debug\Cashier System.exe
 E:\Work\GitHub\Cashier-System\Cashier System\obj\Debug\Cashier System.pdb
+E:\Work\GitHub\Cashier-System\Cashier System\obj\Debug\Cashier_System.Add_new_Employee.resources

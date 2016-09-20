@@ -13,5 +13,9 @@ namespace Cashier_System
             "product_code" , "product_sell_price" , "product_buy_price" , "product_description" 
             , "product_name" , "product_discount", "product_quantity" , "product_sells_history"
         };
+
+        static public List<String> seller_keys = new List<String>(){
+            "seller_username" , "seller_password","seller_name","seller_type"
+        };
     }
 }

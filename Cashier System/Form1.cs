@@ -24,16 +24,21 @@ namespace Cashier_System
 
         private void ToolStripMenuItemAddItem_Click(object sender, EventArgs e)
         {
-            Add_new_Item new_Item = new Add_new_Item();
-            new_Item.Show();
+           new Add_new_Item().Show();
         }
 
 
 
         private void ToolStripMenuItemEditItem_Click_1(object sender, EventArgs e)
         {
-            Product_Details product_details = new Product_Details();
-            product_details.Show();
+            new Product_Details().Show();
+            
         }
+
+        private void NewEmployeeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new Add_new_Employee().Show(); 
+        }
+
     }
 }

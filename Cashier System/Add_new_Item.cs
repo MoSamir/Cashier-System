@@ -101,9 +101,18 @@ namespace Cashier_System
             if (CompleteInput() && ValidInput())
             {
 
-                List<String> values = new List<String>() { code_tb.Text , price_tb.Text 
-                , bprice_tb.Text , description_tb.Text , name_tb.Text , discount_tb.Text 
-                , quantity_tb.Text , "0" };
+
+                String Code = "'" + code_tb.Text + "'";
+                String Price = "N'" + price_tb.Text + "'";
+                String Bprice = "'" + bprice_tb.Text + "'";
+                String Discount = "'"+ discount_tb.Text + "'";
+                String Quantity = "'" + quantity_tb.Text + "'";
+                String Name = "N'" + name_tb.Text + "'";
+                String Description = "N'" + description_tb.Text + "'";
+ 
+                List<String> values = new List<String>() { Code , Price 
+                , Bprice , Description , Name , Discount 
+                , Quantity , "0" };
                 
                 DataSet DS = db.finds("product_tbl", "product_code", code_tb.Text);
                 if (DS.Tables[0].Rows.Count != 0)

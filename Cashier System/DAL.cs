@@ -25,9 +25,9 @@ namespace Cashier_System
             foreach (string value in values)
             {
                 if(KeyIndex == 3 || KeyIndex == 4)    
-                        sql += "N'" + value + "'" + ",";
+                        sql +=  value  + ",";
                 else
-                    sql += "'" + value + "'" + ",";
+                    sql+= value+ ",";
                 KeyIndex++;
             };
             sql = sql.Remove(sql.Length - 1);

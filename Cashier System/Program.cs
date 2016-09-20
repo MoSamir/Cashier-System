@@ -16,7 +16,7 @@ namespace Cashier_System
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Add_new_Item());
+            Application.Run(new Form1());
         }
     }
 }
